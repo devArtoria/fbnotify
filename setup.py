@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='fbnotify',
-    version='0.0.1',
+    version='0.0.2',
     description='A simple facebook messenger wrapper for noify',
     license='MIT',
     author='Lewis Kim',
@@ -14,6 +14,5 @@ setup(
         'fbchat'
     ],
     packages=find_packages(exclude=['tests']),
-    long_description=open('README.md').read(),
     zip_safe=False
 )
